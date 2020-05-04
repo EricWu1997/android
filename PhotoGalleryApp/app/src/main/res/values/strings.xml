@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PhotoGalleryApp</string>
+    <string name="main_display">Main display</string>
+    <string name="filter_button">Filter</string>
+    <string name="remove_button">Remove Filter</string>
+    <string name="back_button">Back</string>
+    <string name="image_des">dummy</string>
+    <string name="cancel">Cancel</string>
+    <string name="set">Set</string>
+    <string name="search">Search</string>
+    <string name="camera">Camera</string>
+    <string name="edit">Edit</string>
+    <string name="carousel">Carousel</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="remove">Remove</string>
+    <string name="ok">OK</string>
+    <string name="confirm">Confirm</string>
+    <string name="remove_confirm_title">Delete this photo?</string>
+    <string name="rename_dialog_title">Enter new name</string>
+    <string name="rename_hint">New Name</string>
+    <string name="keyword">Keyword</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+</resources>
