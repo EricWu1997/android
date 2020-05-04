@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="auto_launch_key">com.example.ericw.fastconnect.auto_start</string>
+    <string name="trigger_guard_key">com.example.ericw.fastconnect.trigger_guard</string>
+    <string name="trigger_diff_key">com.example.ericw.fastconnect.trigger_difference</string>
+    <string name="active_scan_key">com.example.ericw.fastconnect.active_scanning_enable</string>
+    <string name="active_scan_point_key">com.example.ericw.fastconnect.activity_scan_point</string>
+    <string name="preference_key">com.example.ericw.fastconnect</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FastConnect</string>
+    <string name="setting">Setting</string>
+    <string name="preference_category_title">Scan preference</string>
+    <string name="active_scan_title">Active scanning</string>
+    <string name="auto_launch_title">Auto start on launch</string>
+</resources>

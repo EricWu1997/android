@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:layout="@layout/auto_launch_title">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/auto_launch_key"
+            android:summaryOff="Disable"
+            android:summaryOn="Enable" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:layout="@layout/scan_pref_title">
+
+        <com.example.ericw.fastconnect.QualityPickerPreference
+            android:defaultValue="0"
+            android:key="@string/trigger_guard_key"
+            android:persistent="true"
+            custom:summary_title="When signal poor than: " />
+
+        <com.example.ericw.fastconnect.NoisePickerPreference
+            android:defaultValue="0"
+            android:key="@string/trigger_diff_key"
+            android:persistent="true"
+            custom:summary_title="Difference grater than: " />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:layout="@layout/active_scan_title">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/active_scan_key"
+            android:summaryOff="Disable"
+            android:summaryOn="Enable" />
+        <com.example.ericw.fastconnect.QualityPickerPreference
+            android:defaultValue="0"
+            android:key="@string/active_scan_point_key"
+            android:persistent="true"
+            custom:summary_title="Trigger Level: " />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
